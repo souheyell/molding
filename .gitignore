@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+python-service/venv/
+python-service/__pycache__/
+python-service/services/__pycache__/
+
+# Build outputs
+frontend/.next/
+frontend/out/
+frontend/build/
+backend/dist/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temp files
+tmp/
+temp/
+*.tmp
+*.stl
+*.gcode
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Misc
+.vercel
+.turbo
+next-env.d.ts
